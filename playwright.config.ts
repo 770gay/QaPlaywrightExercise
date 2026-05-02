@@ -2,7 +2,7 @@ import { defineConfig, devices } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
 
-dotenv.config();
+
 dotenv.config({ path: path.resolve(__dirname, ".env") });
 
 export default defineConfig({
@@ -24,7 +24,7 @@ export default defineConfig({
   ],
 
   use: {
-    baseURL: "https://ebay.com",
+    baseURL: "https://www.ebay.com",
 
     screenshot: "only-on-failure",
     video: "retain-on-failure",
@@ -37,14 +37,6 @@ export default defineConfig({
     {
       name: "chromium",
       use: { ...devices["Desktop Chrome"] },
-    },
-    {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
-    },
-    {
-      name: "webkit",
-      use: { ...devices["Desktop Safari"] },
-    },
+    }
   ],
 });

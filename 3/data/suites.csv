@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","22520","complete flow","chromium","Sun May 03 00:38:08 UTC 2026","failed","Sun May 03 00:38:30 UTC 2026","E2E - eBay flow","e2e.spec.ts","",""

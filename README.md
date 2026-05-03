@@ -14,6 +14,7 @@ qaExercise/
 └── screenshots/    # Test failure screenshots
 ```
 
+
 ## Tech Stack
 
 - **Playwright** - Test automation framework
